@@ -1,0 +1,9 @@
+vk_api
+requests
+imageio
+g4f
+pytz
+telebot
+python-dotenv
+
+curl_cffi
