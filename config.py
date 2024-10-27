@@ -21,7 +21,7 @@ dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
 if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 
-user_token = os.getenv('user_token')
+user_token = os.getenv('USER_TOKEN')
 
 walls_domain = [
     'gefundendog',              # vk.com/gefundendog
@@ -30,6 +30,6 @@ walls_domain = [
     'poteryashkamoskva',        # vk.com/poteryashkamoskva
 ]
 
-tg_token = os.getenv('tg_token')  # telegram bot token
+tg_token = os.getenv('TG_TOKEN')  # telegram bot token
 
-wallet_addr = os.getenv('wallet_addr')  # cripto wallet address
+wallet_addr = os.getenv('WALLET_ADDR')  # cripto wallet address

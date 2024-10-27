@@ -11,17 +11,17 @@ pip install -r requirements.txt
 Create .env file:
 ```
 # vk token
-user_token = 'vk1.a.blablabla'
+USER_TOKEN = 'vk1.a.blablabla'
 
-tg_token = '1234567890:abcdefghijknlmopqrstuvwxyz'  # telegram bot token
+TG_TOKEN = '1234567890:abcdefghijknlmopqrstuvwxyz'  # telegram bot token
 
-wallet_addr = '1488abracadabra52'  # cripto wallet address
+WALLET_ADDR = '1488abracadabra52'  # cripto wallet address
 ```
 or setup environment variable:
 ```shell
-export user_token='vk1.a.blablabla'
-export tg_token='1234567890:abcdefghijknlmopqrstuvwxyz'
-export wallet_addr='1488abracadabra52'
+export USER_TOKEN='vk1.a.blablabla'
+export TG_TOKEN='1234567890:abcdefghijknlmopqrstuvwxyz'
+export WALLET_ADDR='1488abracadabra52'
 ```
 
 And run:
