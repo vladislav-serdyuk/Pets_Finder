@@ -30,7 +30,7 @@ python bot.py
 ```
 
 ## Use
-### Setup use vk
+### Configure vk usage
 Open config.py and edit walls_domain:
 ```python
 walls_domain = [
